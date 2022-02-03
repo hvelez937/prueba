@@ -36,7 +36,47 @@ class _DetallePageState extends State<DetallePage> {
                 height: 15,
               ),
               Text(
-                widget.post.email,
+                widget.post.address!,
+                style: const TextStyle(
+                    fontWeight: FontWeight.bold, fontSize: 22.0),
+              ),
+              const SizedBox(
+                height: 15,
+              ),
+              Text(
+                widget.post.company!,
+                style: const TextStyle(
+                    fontWeight: FontWeight.bold, fontSize: 22.0),
+              ),
+              const SizedBox(
+                height: 15,
+              ),
+              Text(
+                widget.post.eyeColor!,
+                style: const TextStyle(
+                    fontWeight: FontWeight.bold, fontSize: 22.0),
+              ),
+              const SizedBox(
+                height: 15,
+              ),
+              Text(
+                widget.post.gender!,
+                style: const TextStyle(
+                    fontWeight: FontWeight.bold, fontSize: 22.0),
+              ),
+              const SizedBox(
+                height: 15,
+              ),
+              Text(
+                widget.post.phone!,
+                style: const TextStyle(
+                    fontWeight: FontWeight.bold, fontSize: 22.0),
+              ),
+              const SizedBox(
+                height: 15,
+              ),
+              Text(
+                widget.post.about!,
                 style: const TextStyle(
                     fontWeight: FontWeight.bold, fontSize: 22.0),
               ),
